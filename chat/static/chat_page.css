@@ -1,0 +1,137 @@
+.profile-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 12px;
+}
+.icon-option {
+  margin-left: auto;
+}
+.owner-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-left: 1vw;
+}
+
+.online {
+  vertical-align: middle;
+  color: white;
+  margin-left: 15px;
+  transform: rotate(180deg);
+}
+.away {
+  color: yellow;
+  margin-left: 22px;
+  vertical-align: middle;
+}
+.busy {
+  color: red;
+  margin-left: 24px;
+  vertical-align: middle;
+}
+.offline {
+  color: rgb(160, 160, 160);
+  margin-left: 14px;
+  vertical-align: middle;
+  transform: rotate(180deg);
+}
+.dropdown-menu button:hover {
+  border-radius: 5px;
+  background-color: rgba(95, 95, 10, 0.616);
+}
+
+.dropdown-menu.show {
+  background-color: rgba(245, 245, 245, 0.514);
+  border-color: transparent;
+}
+
+.sender-profile {
+  margin-left: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.recv-profile {
+  margin-right: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.sender-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-left: 2vw;
+  color: white;
+}
+.no-of-messege {
+  font-weight: bold;
+  color: #2c3e50;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-width: 2px;
+  border: solid white;
+  background: white;
+  margin-left: auto;
+}
+#messgLink {
+  text-decoration: none;
+  padding-right: 20px;
+}
+.messege-got-list {
+  margin-left: 2.4vw;
+  color: white;
+}
+
+.chat-list :hover {
+  background-color: #bbbbbb9c;
+  border-radius: 5px;
+}
+.messege-got {
+  background: #2c3e50;
+  padding: 8px;
+  color: white;
+  font-weight: 400;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#my_channel_key {
+  background: #9292928a;
+  border-radius: 3px;
+  padding: 2px;
+}
+.messege-sent {
+  background: rgba(128, 128, 128, 0.829);
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+.child {
+  margin-top: auto;
+  display: flex;
+}
+.messege-group {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.profile-header button:hover,
+.profile-header button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.form-row button:hover,
+.form-row button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0 transparent;
+}
